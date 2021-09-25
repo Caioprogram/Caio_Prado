@@ -1,0 +1,8 @@
+//atividade 2
+
+let nota1 = 8.2;
+let nota2 = 4.3;
+
+let mediaNotas = (nota1 + nota2) / 2;
+
+console.log(`A média é ${mediaNotas}`);

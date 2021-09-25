@@ -1,0 +1,14 @@
+//atividade 3
+
+let valor1 = 13;
+let valor2 = 16;
+
+let resultado = valor1 + valor2;
+
+let verificacao = resultado % 2;
+
+if (verificacao == 0) {
+console.log("O número é par!");
+} else {
+console.log("O número é ímpar!");
+}
