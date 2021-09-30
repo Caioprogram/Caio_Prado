@@ -1,0 +1,16 @@
+#language: pt
+
+Feature: amazon.feature
+    Valida se no nome do primeiro livro da busca contém a palavra "Syllabus"
+    Contexto: 
+        Dado que está dentro da página da amazon
+        
+        Esquema do Cenário: Valida se no nome do primeiro livro da busca contém a palavra "Syllabus"
+            Quando acessar a página "<amazon.com.br>"
+            E acessar a aba "<livros>"
+            E pesquisar por "<ISTQB>"
+            Entao deverá validar se o nome do primeiro livro da lista de resultados contem a palavra "Syllabus"
+            
+            
+ 
+            
