@@ -1,0 +1,19 @@
+#language: pt
+
+Funcionalidade: youtube.feature
+    Verifica as visualizações de um vídeo
+    Contexto: 
+        Dado que está dentro da página do youtube
+        
+        Esquema do Cenário: Verificar Visualizações
+            Quando pesquisar por "<compasso UOL>"
+            E entrar no canal "<compasso UOL>"
+            E acessar a aba "<sobre>"
+            Entao deverá valida se o número total de visualizações é maior que 30000
+ 
+            
+
+
+    
+
+  
